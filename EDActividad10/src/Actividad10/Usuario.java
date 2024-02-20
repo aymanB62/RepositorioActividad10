@@ -7,7 +7,8 @@ public class Usuario {
 	String id;
 	String nombre;
 	double[] valoraciones;
-	String alejito;
+	String ayman;
+	
 
 	public Usuario() {
 		
