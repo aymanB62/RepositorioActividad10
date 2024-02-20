@@ -8,6 +8,7 @@ public class Usuario {
 	String nombre;
 	double[] valoraciones;
 	String ayman;
+	int numeros; //aosdhaof
 
 	public Usuario() {
 		
