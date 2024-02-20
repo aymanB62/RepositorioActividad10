@@ -7,6 +7,7 @@ public class Usuario {
 	String id;
 	String nombre;
 	double[] valoraciones;
+	String alejito;
 
 	public Usuario() {
 		
@@ -16,6 +17,7 @@ public class Usuario {
 		this.id = id;
 		this.nombre = nombre;
 		this.valoraciones = array;
+		
 	}
 
 	public String toString() {
@@ -42,6 +44,7 @@ public class Usuario {
 				if(this.valoraciones[i] > v.valoraciones[1]) {
 					sumador++;
 				}
+				
 		}
 		System.out.println("Hay  " + sumador + "mayor");
 	}
