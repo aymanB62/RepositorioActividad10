@@ -7,11 +7,11 @@ public class Main {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		Usuario u1 = new Usuario("208934H" , "HOLA", pedirPorPantalla());
+		Usuario u1 = new Usuario("208934H" , "BUENOS DIAS", pedirPorPantalla());
 
 		System.out.println(u1.toString());
 		
-		System.out.println("La media de valoraciones es: " + u1.mediaDeValoraciones());
+		System.out.println("La valoracion es de: " + u1.mediaDeValoraciones());
 		
 		u1.imprimirValoraciones();
 		
